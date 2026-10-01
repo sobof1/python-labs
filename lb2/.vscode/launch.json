@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Математична модель варіанта 15",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scalar_modeling.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Регістр енергоспоживання варіанта 15",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/register_bitmask.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

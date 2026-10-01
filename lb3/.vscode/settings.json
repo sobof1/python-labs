@@ -1,0 +1,29 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Miniconda PowerShell": {
+            "path": "${env:WINDIR}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-ExecutionPolicy",
+                "ByPass",
+                "-NoExit",
+                "-Command",
+                "& 'C:\\ProgramData\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\ProgramData\\miniconda3'"
+            ],
+            "icon": "terminal-powershell"
+        },
+        "Miniconda ce_lab_env": {
+            "path": "${env:WINDIR}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-ExecutionPolicy",
+                "ByPass",
+                "-NoExit",
+                "-Command",
+                "& 'C:\\ProgramData\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'ce_lab_env'"
+            ],
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Miniconda PowerShell",
+    "python.defaultInterpreterPath": "C:\\ProgramData\\miniconda3\\python.exe",
+    "python.terminal.activateEnvironment": true
+}
