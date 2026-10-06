@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: ЛБ5 — CAN-bus, варіант 15",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/log_parser.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

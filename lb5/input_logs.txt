@@ -1,0 +1,12 @@
+# ЛБ5, варіант 15. Перші два байти Data_Bytes: RPM = raw_value * 0.25.
+# Рядок 4 навмисно містить зайві пробіли й табуляцію для нормалізації.
+Timestamp_MS: 1000 | CAN_ID: 0C0 | DLC: 8 | Data_Bytes: 1E 20 00 00 00 00 00 00 | Bus_State: ACTIVE
+	Timestamp_MS:   1250 | CAN_ID: 0c0 | DLC: 8 | Data_Bytes: 1F 40 00 00 00 00 00 00 | Bus_State: ACTIVE   
+Timestamp_MS: 1500 | CAN_ID: 0C0 | DLC: 8 | Data_Bytes: 20 00 00 00 00 00 00 00 | Bus_State: PASSIVE
+Timestamp_MS: 1750 | CAN_ID: 0C0 | DLC: 8 | Data_Bytes: 00 00 00 00 00 00 00 00 | Bus_State: ACTIVE
+
+# Наступні рядки мають навмисні помилки, щоб показати валідацію.
+Timestamp_MS: 2000 | CAN_ID: 0C0 | DLC: 9 | Data_Bytes: 1E 20 00 00 00 00 00 00 00 | Bus_State: ACTIVE
+Timestamp_MS: 2250 | CAN_ID: 8A0 | DLC: 8 | Data_Bytes: 1E 20 00 00 00 00 00 00 | Bus_State: ACTIVE
+Timestamp_MS: 2500 | CAN_ID: 0C0 | DLC: 4 | Data_Bytes: 1E 20 00 | Bus_State: ACTIVE
+Timestamp=2750 | ID=0C0 | DLC=8 | DATA=1E 20 00 00 00 00 00 00 | STATE=ACTIVE
