@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: ЛБ6 — реєстр поштових релеїв, варіант 15",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/network_inventory.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: ЛБ6 — аудит Spam, варіант 15",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/security_audit.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
