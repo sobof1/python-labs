@@ -1,0 +1,1 @@
+This ordinary target file keeps the valid symbolic links in the sandbox alive.

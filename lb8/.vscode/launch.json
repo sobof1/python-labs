@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: ЛБ8 — аудит битих символьних посилань",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/cli_main.py",
+      "args": [
+        "--path",
+        "${workspaceFolder}/test_sandbox",
+        "--broken-only"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
