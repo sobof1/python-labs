@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: ЛБ9 — валідатор DDR5, варіант 15",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/device_validator.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
