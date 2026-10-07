@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: ЛБ7 — пул пам'яті, варіант 15",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/functional_pipeline.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: ЛБ7 — функція Аккермана, варіант 15",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/recursive_algorithms.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
